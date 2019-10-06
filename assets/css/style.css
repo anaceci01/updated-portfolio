@@ -2,73 +2,6 @@
 /* ---------- Nav Bar ---------- */
 /* ----------------------------- */
 
-
-.navbar {
-    background-color:#f5f6fa;
-    height: 9rem;
-    width: 100%;
-    font-size: 1.5em;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-}
-.nav-item-home {
-    position: relative;
-    top: 2rem;
-}
-
-.nav-item-portfolio {
-    size: 3rem;
-    position: relative;
-    top: 2rem;
-}
-
-.nav-item-contact {
-    size: 3rem;
-    position: relative;
-    top: 1rem;
-}
-
-.nav-item-name {
-    position: relative;
-    width: 50px;
-    vertical-align: middle;
-}
-
-
-.title {
-    color: white;
-    font-size: 1.5em;
-    position:relative;
-    top: 2rem;
-    right: 60rem;
-}
-
-a:link {
-    color: #cccc;
-    text-decoration: none;
-    position: relative;
-    top: 3rem;
-    right: 2rem;
-}
-
-a:visited {
-    color: #cccc;
-    text-decoration: none;
-  }
-
-a:hover {
-    color: #f368e0;
-    text-decoration: underline;
-}
-
-a:active {
-    color: #f368e0;
-    text-decoration: none;
-}
-
-
 /* ----------------------------- */
 /* ---------- Body ------------- */
 /* ----------------------------- */
@@ -92,7 +25,7 @@ h1 {
     font-size: 5em;
     position: relative;
     top: 7rem;
-    left: 20rem;
+    left: 15rem;
     text-shadow: 2px 2px white;
 }
 
