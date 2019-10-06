@@ -2,10 +2,14 @@
 /* ---------- Nav Bar ---------- */
 /* ----------------------------- */
 
+
+
+
+
+
 /* ----------------------------- */
 /* ---------- Body ------------- */
 /* ----------------------------- */
-
 
 #frame {
     height: 100vh;
@@ -17,15 +21,11 @@
     background-repeat: no-repeat;
 }
 
-.container {
-    background: url(../images/vector.png);
-}
-
 h1 {
     font-size: 5em;
     position: relative;
     top: 7rem;
-    left: 15rem;
+    left: 5rem;
     text-shadow: 2px 2px white;
 }
 
