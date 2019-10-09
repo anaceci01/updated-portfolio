@@ -1,6 +1,9 @@
 /* ----------------------------- */
 /* ---------- Nav Bar ---------- */
 /* ----------------------------- */
+.nav-bar {
+    width: 50px;
+}
 
 
 
@@ -21,22 +24,99 @@
     background-repeat: no-repeat;
 }
 
-h1 {
-    font-size: 5em;
-    position: relative;
-    top: 7rem;
-    left: 5rem;
-    text-shadow: 2px 2px white;
+
+/* ------------------------------------------- */
+/* ---------- Section 1 Title ---------------- */
+/* ------------------------------------------- */
+
+.title-area {
+    font-size: 80px;
+    color: black;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.subtitle-area {
+    font-size: 30px;
+    color: black;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-h2 {
-    font-size: 2em;
-    position: relative;
-    top: 7rem;
-    left: 30rem;
+.subtitle-space {
+    font-size: 16px;
+    font-family: 'Darker Grotesque', sans-serif;
+    display: inline-block;
 }
-    
-    /* ------------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------- */
+/* ---------- Section 2 About me ------------- */
+/* ------------------------------------------- */
+
+.section-about {
+    background-color: #222;
+    height: 100vh;
+}
+
+.column-aboutme {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: #222;
+  }
+
+  .column-mywork {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: white;
+  }
+  
+  .module-border-wrap {
+    max-width: 650px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    padding: 3px;
+  }
+  
+  .module {
+    background: #222;
+    color: white;
+    padding: 2rem;
+  }
+
+
+  /* ------------------------------------------- */
+/* ---------- Section 2 Work ------------- */
+/* ------------------------------------------- */
+
+.section-work {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.content.mywork {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: whitesmoke;
+  }
+.column{
+    padding: 70px, 45px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
     /* ------------------------------------------ Media Query Start ------------------------------------------ */
     /* ------------------------------------------------------------------------------------------------------- */
     
