@@ -15,7 +15,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Livvic:100,200,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Prompt:600,700&display=swap" rel="stylesheet">
 
     <!-- RESET CSS -->
     <link rel="stylesheet" href="./resources/css/reset.css">
@@ -33,8 +33,23 @@
 </head>
 
 <body>
+    <!-- Section 1 Title -->
+    <section class="section-title">
+        <div class="main-body">
+            <div id="frame">
+                    <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                              <h1 class="display-4">Hi, my name is <span id = "name">Ana Davis</span>.</h1>
+                              <p class="lead">I'm a full stack web developer</p>
+                              <a class="btn btn-primary btn-lg" href="#" role="button">View my work</a>
+                            </div>
+                          </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 2 About me -->
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" class = nav-bar>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" a class=nav-bar>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -54,31 +69,14 @@
                 </li>
             </ul>
             <div class="navbar-item">
-                <div class="navbar-item" href="contact.html"><button type="button" class="btn btn-outline-light">Say Hello</button>
-            </div>
-        </div>
-    </nav>
-
-
-
-
-    <!-- Section-1 -->
-    <section class="section-title">
-        <div class="main-body">
-            <div id="frame">
-                <div class="container">
-                    <div class="column is-centered">
-                        <h1 class="title-area">Full Stack Web
-                            Developer</h1>
-                        <h2 class="subtitle-area">I design and code. I love what I do.</h2>
-                    </div>
+                <div class="navbar-item" href="./contact.html"><button type="button" class="btn btn-outline-light">Say
+                        Hello</button>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Section 2 About me -->
+    </nav>
+
     <section class="section-about">
-        <div class="container">
+        <div class="container-about">
             <div class="columns-is-centered">
                 <div class="column-aboutme">
                     <div class="module-border-wrap">
@@ -96,26 +94,25 @@
             </div>
         </div>
     </section>
+
     <!-- Section 3 - my work-->
-    <section class="section-work">
-        <div class="container">
-            <div class="box">
-                <div class="content-mywork">
-                    <div class="row is-centered">
-                        <div class="column">
-                            This is column-1
-                        </div>
-                        <div class="column">
-                            This is column-2
-                        </div>
-                        <div class="column">
-                            This is column-3
-                        </div>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img class="design-icon" src="assets/images/design.png">
+                One of three columns
+            </div>
+            <div class="col-sm">
+                <img class="design-icon" src="assets/images/design.png">
+                One of three columns
+            </div>
+            <div class="col-sm">
+                <img class="design-icon" src="assets/images/design.png">
+                One of three columns
             </div>
         </div>
-    </section>
+    </div>
+
 
 
 

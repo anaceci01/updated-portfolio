@@ -1,9 +1,7 @@
 /* ----------------------------- */
 /* ---------- Nav Bar ---------- */
 /* ----------------------------- */
-.nav-bar {
-    width: 50px;
-}
+
 
 
 
@@ -24,10 +22,43 @@
     background-repeat: no-repeat;
 }
 
+.jumbotron {
+  background: transparent;
+  font-family: 'Prompt', sans-serif;
+  font-weight: bold,
+}
+#name {
+  color: #b33270;
+}
+
+.btn {
+  background: transparent;
+  color: #222;
+  box-shadow: 0 8px 6px -6px black;
+  border: none;
+}
+.btn:hover {
+  background-color: #a29bfe;
+  box-shadow: 0 8px 6px -6px black;
+  border: none;
+}
+.btn:active {
+  background-color: #a29bfe;
+  box-shadow: 0 8px 6px -6px black;
+  border: none;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 
 /* ------------------------------------------- */
 /* ---------- Section 1 Title ---------------- */
 /* ------------------------------------------- */
+
+#frame
 
 .title-area {
     font-size: 80px;
@@ -115,6 +146,45 @@
 .column{
     padding: 70px, 45px;
 }
+
+.container {
+padding: 64px;
+}
+.row:after {
+  content: "";
+  display:table;
+}
+.colum-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+  text-align: center;
+}
+.colum-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+
+
+/* ------------------------------------------- */
+/* ---------- Section 3 Work ------------- */
+/* ------------------------------------------- */
+.design-icon {
+  width: 50px;
+  height: 50px;
+  margin: auto;    
+  display: block;
+  left: 10px;
+}
+.image {
+display: block;
+position: relative;
+}
+
+
+
 
 /* ------------------------------------------------------------------------------------------------------- */
     /* ------------------------------------------ Media Query Start ------------------------------------------ */
