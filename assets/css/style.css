@@ -5,11 +5,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
-
-
-
 /* ----------------------------- */
 /* ---------- Body ------------- */
 /* ----------------------------- */
@@ -32,28 +27,6 @@ html {
 #name {
   color: #b33270;
 }
-/* .btn {
-  background: transparent;
-  color: #222;
-  box-shadow: 0 8px 6px -6px black;
-  border: none;
-  text-decoration: none;
-}
-.btn:hover {
-  background-color: #a29bfe;
-  box-shadow: 0 8px 6px -6px black;
-  border: none;
-}
-.btn:active {
-  background-color: #a29bfe;
-  box-shadow: 0 8px 6px -6px black;
-  border: none;
-}
-a:visited {
-  background-color: #a29bfe;
-  text-decoration: none;
-  color: inherit;
-} */
 .btn.btn-outline-dark {
   background: transparent;
   box-shadow: 0 8px 6px -6px black;
@@ -64,40 +37,6 @@ a:visited {
   background-color: #a29bfe;
   box-shadow: 0 8px 6px -6px black;
   text-decoration: none;
-}
-
-
-/* ------------------------------------------- */
-/* ---------- Section 1 Title ---------------- */
-/* ------------------------------------------- */
-
-#frame
-
-.title-area {
-    font-size: 80px;
-    color: black;
-    display: flex;
-    margin: 0;
-    position: absolute;
-    top: 40%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-.subtitle-area {
-    font-size: 30px;
-    color: black;
-    display: flex;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.subtitle-space {
-    font-size: 16px;
-    font-family: 'Darker Grotesque', sans-serif;
-    display: inline-block;
 }
 
 /* ------------------------------------------- */
@@ -117,13 +56,7 @@ a:visited {
     background: #222;
   }
 
-  .column-mywork {
-    height: 100vh;
-    margin: 0;
-    display: grid;
-    place-items: center;
-    background: white;
-  }
+
   
   .module-border-wrap {
     max-width: 650px;
@@ -132,7 +65,7 @@ a:visited {
     background: linear-gradient(to right, red, purple);
     padding: 3px;
   }
-  
+   
   .module {
     background: #222;
     color: white;
