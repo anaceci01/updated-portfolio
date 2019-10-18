@@ -1,7 +1,9 @@
 /* ----------------------------- */
 /* ---------- Nav Bar ---------- */
 /* ----------------------------- */
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 
@@ -30,12 +32,12 @@
 #name {
   color: #b33270;
 }
-
-.btn {
+/* .btn {
   background: transparent;
   color: #222;
   box-shadow: 0 8px 6px -6px black;
   border: none;
+  text-decoration: none;
 }
 .btn:hover {
   background-color: #a29bfe;
@@ -47,11 +49,22 @@
   box-shadow: 0 8px 6px -6px black;
   border: none;
 }
-a:hover, a:focus, a:active {
+a:visited {
+  background-color: #a29bfe;
   text-decoration: none;
   color: inherit;
+} */
+.btn.btn-outline-dark {
+  background: transparent;
+  box-shadow: 0 8px 6px -6px black;
+  color: #222;
+  border: none;
 }
-
+.btn.btn-outline-dark:hover {
+  background-color: #a29bfe;
+  box-shadow: 0 8px 6px -6px black;
+  text-decoration: none;
+}
 
 
 /* ------------------------------------------- */
@@ -124,6 +137,18 @@ a:hover, a:focus, a:active {
     background: #222;
     color: white;
     padding: 2rem;
+  }
+  .btn.btn-outline-light {
+    background: transparent;
+    color: white;
+    box-shadow: 0 8px 6px -6px black;
+    position: relative;
+    left: 40%;
+  }
+  .btn.btn-outline-light:hover {
+    background-color: #a29bfe;
+    box-shadow: 0 8px 6px -6px black;
+    text-decoration: none;
   }
 
 
