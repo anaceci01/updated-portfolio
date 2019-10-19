@@ -33,8 +33,8 @@
 </head>
 
 <body>
-<!-- NavBar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" a class=nav-bar>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" a class=nav-bar>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -61,10 +61,60 @@
 
 
     <!-- Contact Form -->
-    <section class = "container">
+    <section class="container">
         <!--Section Heading-->
-        <h2 class = "contact">Contact us</h2>
-        <!--Section Description>-->
+        <h2 class="contact">Contact us</h2>
+        <!--Form>-->
+        <p class="text-center w-responsive mx-auto mb-5">
+            <h3>Thanks for taking the time to reach out. <br>How can I help you today?</h3>
+        </p>
+        <div class="row">
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <div class="row">
+                        <!---name-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!---email-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Subject-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="type" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- Send Button-->
+                <div class="text-center text-md-left">
+                    <a class="btn btn-outline-dark" href="contact.html" role="button">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <ion-icon name="call" size="large"></ion-icon>
+                    <p>520-409-1729</p>
+                    </li>
+                    <ion-icon name="paper-plane" size="large"></ion-icon>
+                    <p>anac.davis@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
 
     </section>
-    

@@ -56,7 +56,9 @@ html {
     background: #222;
   }
 
-
+.h2 {
+  line-height: 1.8;
+}
   
   .module-border-wrap {
     max-width: 650px;
