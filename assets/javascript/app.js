@@ -3,12 +3,11 @@ var name = document.getElementById('name');
 var email = document.getElementById('email');
 var subject = document.getElementById('subject');
 var message = document.getElementById('message');
-
-
+var element = document.getElementById("view-work");
 
 
 // Contact Form //
-if(name.value == "") {
+if (name.value == "") {
     alert("Please enter your name.");
     name.focus();
     return false;
@@ -34,5 +33,3 @@ if (subject.value == "") {
     return false;
 }
 return true;
-
-

@@ -21,38 +21,34 @@
     <link rel="stylesheet" href="./resources/css/reset.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Root CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- Title your page -->
     <title>
-        hello world </title>
+        Ana Davis Portfolio </title>
 </head>
 
 <body>
-    <!-- Section 1 Title -->
-    <section class="section-title">
+    <!------------------------- Section 1 Title ------------------------------->
+    <section class="section-title" id="section-title">
         <div class="main-body">
             <div id="frame">
                 <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
+                    <div class="container-main">
                         <h1 class="display-4">Hi, my name is <span id="name">Ana Davis</span>.</h1>
                         <p class="lead">I'm a full stack web developer</p>
-                        <div class="navbar-item" href="./contact.html"><button type="button"
-                                class="btn btn-outline-dark">View my work</button>
-                        </div>
+                        <a href="#container-work">View my work</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- NavBar -->
+    <!------------------------- Navbar About me ------------------------------->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" a class=nav-bar>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!--Logo on Nav-->
@@ -61,27 +57,24 @@
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <!--Home Link-->
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-                </li>
-                <!--About me Link-->
-                <li class="nav-item">
-                    <a class="nav-link" href="">About Me</a>
+                    <a class="nav-link" href="#section-title">Home <span class="sr-only"></span></a>
                 </li>
                 <!--Portfolio Link-->
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" a href="#container-work">Portfolio</a>
                 </li>
             </ul>
     </nav>
-    <!-- Section 2 About me -->
+    <!------------------------- Section 2 About me ------------------------------->
     <section class="section-about">
-        <div class="container-about">
+        <div class="container-about" id="container-about">
             <div class="columns-is-centered">
                 <div class="column-aboutme">
                     <div class="module-border-wrap">
                         <div class="module">
                             <h1 class="title-space">Thank you for stopping by.</h1>
-                            <h3 class="allaboutme">Since the begginning of my journey as a web developer, I have truly enjoyed the learning progress. It amazes me the power of what computer languages allows us to create. I take delight on clean designs, functioning and efficient user experience as well as cretive content. I'm passionate about music, art, a good read, the ocean, learning about sharks, diving, and lately skydiving! </h3>
+                            <h4 class="allaboutme">Since the begginning of my journey as a web developer, I have truly enjoyed the learning progress. What technology allows us to create keeps amazing me. I take delight on clean designs, functioning and efficient user experience
+                                as well as cretive content. I'm passionate about music, art, a good read, the ocean, learning about sharks, diving, and lately skydiving! </h4>
                             <div class="navbar-item">
                                 <a class="btn btn-outline-light" href="contact.html" role="button">Say Hello</a>
                             </div>
@@ -92,23 +85,109 @@
         </div>
     </section>
 
-    <!-- Section 3 - my work-->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <img class="design-icon" src="assets/images/design.png">
-                One of three columns
-            </div>
-            <div class="col-sm">
-                <img class="design-icon" src="assets/images/design.png">
-                One of three columns
-            </div>
-            <div class="col-sm">
-                <img class="design-icon" src="assets/images/design.png">
-                One of three columns
+    <!------------------------- Section 3 My Work ------------------------------->
+    <section class="section-myWork">
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" a class=nav-bar>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Logo on Nav-->
+            <a class="navbar-brand" href="#"><img src="assets/images/analogo2.png" href="index.html" width="40" height="40" class="d-inline-block align-top"></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <!--Home Link-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#section-title">Home <span class="sr-only"></span></a>
+                    </li>
+                    <!--Portfolio Link-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-about">About</a>
+                    </li>
+                </ul>
+        </nav>
+        <div class="container-work" id="container-work">
+            <div class="row">
+                <div class="col-sm">
+                    <img class="design-icon" src="assets/images/design.png">
+                    <div class="col-sm">
+                        This is column 1
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <img class="design-icon" src="assets/images/backend.png">
+                    <div class="col-sm">
+                        This is column 2
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <img class="design-icon" src="assets/images/design.png">
+                    <div class="col-sm">
+                        This is column 2
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!------------------------- Section Contact me ------------------------------->
+    <section class="container" id="contact">
+        <!--Section Heading-->
+        <h2 class="contact">Contact</h2>
+        <!--Form>-->
+        <p class="text-center w-responsive mx-auto mb-5">
+            <h3>Thanks for taking the time to reach out. <br>How can I help you today?</h3>
+        </p>
+        <div class="row">
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <div class="row">
+                        <!---name-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!---email-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Subject-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="type" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- Send Button-->
+                <div class="text-center text-md-left">
+                    <a class="btn btn-outline-dark" href="contact.html" role="button">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <ion-icon name="call" size="large"></ion-icon>
+                    <p>520-409-1729</p>
+                    </li>
+                    <ion-icon name="paper-plane" size="large"></ion-icon>
+                    <p>anac.davis@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </section>
+
 
 
 
@@ -126,19 +205,15 @@
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
-        </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
     <!-- multipass JavaScript -->
-    <script src="http://gethashset.com/multipass-framework.js">
-    </script>
+
 
     <!-- Root Javascript File -->
     <script src="./assets/javascript/app.js">
