@@ -95,10 +95,6 @@ html {
 
 /* ---------- Section 2 Work ------------- */
 
-.column {
-    padding: 70px, 45px;
-}
-
 #container-work {
     padding: 64px;
     background-color: #f5f6fa;
@@ -134,15 +130,35 @@ html {
 .image {
     display: block;
     position: relative;
+    top: 30px;
+}
+
+#left-column {
+    background: black;
+    height: 100%vh;
+    top: 30px;
+}
+
+#middle-column {
+    background: blue;
+    height: 100%vh;
+    top: 30px;
+}
+
+#right-column {
+    background: greenyellow;
+    height: 100%vh;
+    top: 30px;
 }
 
 
 /* ---------- Section Contact ------------- */
 
 #contact {
-    padding: 64px;
     background-color: white;
     height: 500px;
+    position: relative;
+    top: 30px;
 }
 
 

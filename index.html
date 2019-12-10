@@ -108,19 +108,19 @@
         </nav>
         <div class="container-work" id="container-work">
             <div class="row">
-                <div class="col-sm">
+                <div class="col-sm" id="left-column">
                     <img class="design-icon" src="assets/images/design.png">
                     <div class="col-sm">
-                        This is column 1
+                        <a href=" https://anaceci01.github.io/unit-4-game/" src="/Users/justinrdavis/HW-Wireframe/updated-portfolio/assets/images/crystals.jpg/"></a>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm" id="middle-column">
                     <img class="design-icon" src="assets/images/backend.png">
                     <div class="col-sm">
                         This is column 2
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm" id="right-column">
                     <img class="design-icon" src="assets/images/design.png">
                     <div class="col-sm">
                         This is column 2
@@ -131,61 +131,61 @@
     </section>
 
     <!------------------------- Section Contact me ------------------------------->
-    <section class="container" id="contact">
-        <!--Section Heading-->
-        <h2 class="contact">Contact</h2>
-        <!--Form>-->
-        <p class="text-center w-responsive mx-auto mb-5">
-            <h3>Thanks for taking the time to reach out. <br>How can I help you today?</h3>
-        </p>
-        <div class="row">
-            <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                    <div class="row">
-                        <!---name-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="name" name="name" class="form-control">
-                                <label for="name" class="">Your name</label>
+    <section class="container">
+        <div class="contact" id="contact">
+            <!--Section Heading-->
+            <h2>Contact</h2>
+            <!--Form>-->
+            <p class="text-center w-responsive mx-auto mb-5">
+                <h3>Thanks for taking the time to reach out. <br>How can I help you today?</h3>
+            </p>
+            <div class="row">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <div class="row">
+                            <!---name-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!---email-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
                             </div>
                         </div>
-                        <!---email-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="email" class="form-control">
-                                <label for="email" class="">Your email</label>
+                        <!--Subject-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="type" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
                             </div>
                         </div>
+                    </form>
+                    <!-- Send Button-->
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-outline-dark" href="contact.html" role="button">Send</a>
                     </div>
-                    <!--Subject-->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form">
-                                <textarea type="type" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                <label for="message">Your message</label>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <!-- Send Button-->
-                <div class="text-center text-md-left">
-                    <a class="btn btn-outline-dark" href="contact.html" role="button">Send</a>
+                    <div class="status"></div>
                 </div>
-                <div class="status"></div>
-            </div>
-            <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                    <ion-icon name="call" size="large"></ion-icon>
-                    <p>520-409-1729</p>
-                    </li>
-                    <ion-icon name="paper-plane" size="large"></ion-icon>
-                    <p>anac.davis@gmail.com</p>
-                    </li>
-                </ul>
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <ion-icon name="call" size="large"></ion-icon>
+                        <p>520-409-1729</p>
+                        </li>
+                        <ion-icon name="paper-plane" size="large"></ion-icon>
+                        <p>anac.davis@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-
-
     </section>
 
 
