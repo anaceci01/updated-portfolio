@@ -106,12 +106,31 @@
                     </li>
                 </ul>
         </nav>
-        <div class="container-work" id="container-work">
+        <div class="row">
+            <div class="col-md-7 col-md-offset-3">
+                <h4>Feel free to view my work by following the link selected. </h4>
+            </div>
+        </div>
+        <!------------ section select --------------->
+        <div class="row-select">
+            <div class="col-md-3 col-md-offset-3" div id="left">
+                <h3> Crystals</h3>
+                <button class="crystalBtn" id="crystals" href="https://anaceci01.github.io/unit-4-game/" class="btn btn-dark"><img
+                  src="assets/images/crystals.jpg"height="150px" width="150px"></button>
+            </div>
+            <!------------ section add-select --------------->
+            <div class="col-md-3 col-md" div id="middle">
+                <h2> Trivia Game</h2>
+                <button id="TriviaBtn" id="trivia" href="https://anaceci01.github.io/TriviaGame/" class="btn btn-dark"><img src="assets/images/trivia.jpg" height="150px"
+                  width="160px"></button>
+            </div>
+        </div>
+        <!-- <div class="container-work" id="container-work">
             <div class="row">
                 <div class="col-sm" id="left-column">
                     <img class="design-icon" src="assets/images/design.png">
                     <div class="col-sm">
-                        <a href=" https://anaceci01.github.io/unit-4-game/" src="/Users/justinrdavis/HW-Wireframe/updated-portfolio/assets/images/crystals.jpg/"></a>
+                        <img src="assets/images/crystals.jpg" href=" https://anaceci01.github.io/unit-4-game/">
                     </div>
                 </div>
                 <div class="col-sm" id="middle-column">
@@ -128,96 +147,96 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!------------------------- Section Contact me ------------------------------->
-    <section class="container">
-        <div class="contact" id="contact">
-            <!--Section Heading-->
-            <h2>Contact</h2>
-            <!--Form>-->
-            <p class="text-center w-responsive mx-auto mb-5">
-                <h3>Thanks for taking the time to reach out. <br>How can I help you today?</h3>
-            </p>
-            <div class="row">
-                <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                        <div class="row">
-                            <!---name-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Your name</label>
+        <!------------------------- Section Contact me ------------------------------->
+        <section class="container">
+            <div class="contact" id="contact">
+                <!--Section Heading-->
+                <h2>Contact</h2>
+                <!--Form>-->
+                <p class="text-center w-responsive mx-auto mb-5">
+                    <h3>Thanks for taking the time to reach out. <br>How can I help you today?</h3>
+                </p>
+                <div class="row">
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <div class="row">
+                                <!---name-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Your name</label>
+                                    </div>
+                                </div>
+                                <!---email-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" class="form-control">
+                                        <label for="email" class="">Your email</label>
+                                    </div>
                                 </div>
                             </div>
-                            <!---email-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" class="form-control">
-                                    <label for="email" class="">Your email</label>
+                            <!--Subject-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="type" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                        <label for="message">Your message</label>
+                                    </div>
                                 </div>
                             </div>
+                        </form>
+                        <!-- Send Button-->
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-outline-dark" href="contact.html" role="button">Send</a>
                         </div>
-                        <!--Subject-->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form">
-                                    <textarea type="type" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message</label>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                    <!-- Send Button-->
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-outline-dark" href="contact.html" role="button">Send</a>
+                        <div class="status"></div>
                     </div>
-                    <div class="status"></div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <ul class="list-unstyled mb-0">
-                        <ion-icon name="call" size="large"></ion-icon>
-                        <p>520-409-1729</p>
-                        </li>
-                        <ion-icon name="paper-plane" size="large"></ion-icon>
-                        <p>anac.davis@gmail.com</p>
-                        </li>
-                    </ul>
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <ion-icon name="call" size="large"></ion-icon>
+                            <p>520-409-1729</p>
+                            </li>
+                            <ion-icon name="paper-plane" size="large"></ion-icon>
+                            <p>anac.davis@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
 
 
 
 
-    <!-- END OF CONTAINER -->
+        <!-- END OF CONTAINER -->
 
 
-    <!-- Footer -->
-    <footer class="footer">
+        <!-- Footer -->
+        <footer class="footer">
 
-    </footer>
-    <footer class="footer-full-view">
+        </footer>
+        <footer class="footer-full-view">
 
-    </footer>
+        </footer>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
 
-    <!-- multipass JavaScript -->
+        <!-- multipass JavaScript -->
 
 
-    <!-- Root Javascript File -->
-    <script src="./assets/javascript/app.js">
-    </script>
+        <!-- Root Javascript File -->
+        <script src="./assets/javascript/app.js">
+        </script>
 
 </body>
 

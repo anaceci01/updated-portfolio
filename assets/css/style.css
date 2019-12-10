@@ -101,7 +101,8 @@ html {
     height: 750px;
 }
 
-.row:after {
+
+/* .row:after {
     content: "";
     display: table;
 }
@@ -127,12 +128,6 @@ html {
     left: 10px;
 }
 
-.image {
-    display: block;
-    position: relative;
-    top: 30px;
-}
-
 #left-column {
     background: black;
     height: 100%vh;
@@ -149,7 +144,7 @@ html {
     background: greenyellow;
     height: 100%vh;
     top: 30px;
-}
+} */
 
 
 /* ---------- Section Contact ------------- */
