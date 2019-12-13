@@ -98,7 +98,11 @@ html {
 #container-work {
     padding: 64px;
     background-color: #f5f6fa;
-    height: 750px;
+    height: 100vh;
+}
+
+#nav-bar-work {
+    background-color: transparent;
 }
 
 #left {
@@ -144,14 +148,36 @@ html {
     left: 10px;
 }
 
+#links-row {
+    position: relative;
+    top: 120px;
+}
+
+h4 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
 
 /* ---------- Section Contact ------------- */
 
-#contact {
+#container-contact {
     background-color: white;
     height: 500px;
     position: relative;
-    top: 30px;
+    top: 80px;
+}
+
+h2 {
+    color: #ff6b81;
+}
+
+#btn-contact {
+    background-color: #a29bfe;
+}
+
+#btn-contact:hover {
+    background-color: #877ff6;
 }
 
 

@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Livvic:100,200,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Prompt:600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 
     <!-- RESET CSS -->
     <link rel="stylesheet" href="./resources/css/reset.css">
@@ -73,8 +74,8 @@
                     <div class="module-border-wrap">
                         <div class="module">
                             <h1 class="title-space">Thank you for stopping by.</h1>
-                            <h4 class="allaboutme">Since the begginning of my journey as a web developer, I have truly enjoyed the learning progress. What technology allows us to create keeps amazing me. I take delight on clean designs, functioning and efficient user experience
-                                as well as cretive content. I'm passionate about music, art, a good read, the ocean, learning about sharks, diving, and lately skydiving! </h4>
+                            <h3 class="allaboutme">Since the begginning of my journey as a web developer, I have truly enjoyed the learning progress. What technology allows us to create keeps amazing me. I take delight on clean designs, functioning and efficient user experience
+                                as well as cretive content. I'm passionate about music, art, a good read, the ocean, learning about sharks, diving, and lately skydiving! </h3>
                             <div class="navbar-item">
                                 <a class="btn btn-outline-light" href="contact.html" role="button">Say Hello</a>
                             </div>
@@ -92,13 +93,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         <!--Logo on Nav-->
-        <a class="navbar-brand" href="#"><img src="assets/images/analogo2.png" href="index.html" width="40" height="40" class="d-inline-block align-top"></a>
+        <a class="navbar-brand" id="navbar-work" href="#"><img src="assets/images/analogo2.png" href="index.html" width="40" height="40" class="d-inline-block align-top"></a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <!--Home Link-->
                 <li class="nav-item active">
                     <a class="nav-link" href="#section-title">Home <span class="sr-only"></span></a>
-                </li> -->
+                </li>
                 <!--Portfolio Link-->
                 <li class="nav-item">
                     <a class="nav-link" href="#section-about">About</a>
@@ -106,13 +107,13 @@
             </ul>
     </nav>
     <section class="section-myWork">
-        <div class="container-work" id="container-work">
+        <div class="container-work-link" id="container-work">
             <div class="row">
                 <div class="col-md-6">
-                    <h4>Feel free to view my work by following the link selected. </h4>
+                    <h4>Feel free to view my latest work. </h4>
                 </div>
-            </div> -->
-            <div class="container">
+            </div>
+            <div class="container" id="links-row">
                 <div class="row">
                     <!------------ section trivia --------------->
                     <div class="col-md-4">
@@ -125,8 +126,15 @@
                     <!------------ section word guess --------------->
                     <div class="col-md-4">
                         <a href="https://anaceci01.github.io/Word-Guess-Name/"><img src="assets/images/word_logo.png" height="200px" , width="200px"></button>
+                        </a>
                     </div>
                 </div>
+
+                <br>
+                <br>
+
+                <hr>
+
             </div>
         </div>
     </section>
@@ -134,9 +142,9 @@
     <!------------------------- Section Contact me ------------------------------->
 
     <!-- Contact Form -->
-    <section class="container">
+    <section class="container" id="container-contact">
         <!--Section Heading-->
-        <h2 class="contact">Contact us</h2>
+        <h2 class="">Say Hi!</h2>
         <!--Form>-->
         <p class="text-center w-responsive mx-auto mb-5">
             <h3>Thanks for taking the time to reach out. <br>How can I help you today?</h3>
@@ -172,7 +180,7 @@
                 </form>
                 <!-- Send Button-->
                 <div class="text-center text-md-left">
-                    <a class="btn btn-outline-dark" href="contact.html" role="button">Send</a>
+                    <a class="btn btn-outline-dark" href="contact.html" role="button" id="btn-contact">Send</a>
                 </div>
                 <div class="status"></div>
             </div>
