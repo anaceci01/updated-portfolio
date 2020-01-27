@@ -32,7 +32,6 @@ html {
 }
 
 .btn.btn-outline-dark {
-    background: transparent;
     box-shadow: 0 8px 6px -6px black;
     color: #222;
     border: none;
@@ -43,6 +42,12 @@ html {
     box-shadow: 0 8px 6px -6px black;
     text-decoration: none;
 }
+
+#container-work {
+    font-size: 18px;
+}
+
+.nav-bar-contact {}
 
 
 /* ---------- Section 2 About me ------------- */
@@ -92,12 +97,16 @@ html {
     text-decoration: none;
 }
 
+.nav-link {
+    color: grey;
+}
+
 
 /* ---------- Section 2 Work ------------- */
 
 #container-work {
     padding: 64px;
-    background-color: #69995D;
+    background-color: #E8D6CB;
     height: 100vh;
 }
 
@@ -113,7 +122,7 @@ html {
 }
 
 #right {
-    background-color: #f5cd79;
+    background-color: white;
     height: 200px;
     width: 300px;
     border-radius: 25px;
@@ -163,9 +172,8 @@ h4 {
 
 #container-contact {
     background-color: white;
-    height: 500px;
+    height: 400px;
     position: relative;
-    top: 80px;
 }
 
 h2 {
@@ -173,11 +181,60 @@ h2 {
 }
 
 #btn-contact {
-    background-color: #a29bfe;
+    background-color: rgb(88, 88, 88);
+    color: white;
 }
 
 #btn-contact:hover {
-    background-color: #877ff6;
+    background-color: #a29bfe;
+    color: white;
+}
+
+
+/* ------------Fotter ---------------*/
+
+.footer {
+    width: 100%;
+    height: 30%;
+    line-height: 30px;
+    background-color: #2E4952;
+    z-index: 1;
+}
+
+.footer-box {
+    color: #dfe6e9;
+    margin: 1rem;
+}
+
+#copyright {
+    color: #dfe6e9;
+    font-size: .7rem;
+}
+
+.footer-ul {
+    padding-top: .5rem;
+    border-top: 1px solid #dfe6e9;
+}
+
+.footer-ul li {
+    width: auto;
+    line-height: 1.2rem;
+    margin-left: .5rem;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #a29bfe;
+    text-decoration: none;
+}
+
+.footer-ul {
+    color: white;
 }
 
 

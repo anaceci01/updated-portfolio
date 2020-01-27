@@ -1,35 +1,11 @@
-// variables//
-var name = document.getElementById('name');
-var email = document.getElementById('email');
-var subject = document.getElementById('subject');
-var message = document.getElementById('message');
-var element = document.getElementById("view-work");
-
-
-// Contact Form //
-if (name.value == "") {
-    alert("Please enter your name.");
-    name.focus();
-    return false;
-    console.log(alert)
+function ValidateEmail(inputText) {
+    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if (inputText.value.match(mailformat)) {
+        document.form1.text1.focus();
+        return true;
+    } else {
+        alert("You have entered an invalid email address!");
+        document.form1.text1.focus();
+        return false;
+    }
 }
-if (email.value == "") {
-    alert("Please enter a valid e-mail address.");
-    email.focus();
-    return false;
-}
-if (email.value.indexOf("@", 0) < 0) {
-    alert("Please enter a valid e-mail address.");
-    email.focus();
-    return false;
-}
-if (email.value.indexOf(".", 0) < 0) {
-    alert("Please enter a valid e-mail address.");
-    email.focus();
-    return false;
-}
-if (subject.value == "") {
-    alert("Please enter a subject.");
-    return false;
-}
-return true;
